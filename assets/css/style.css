@@ -1,0 +1,254 @@
+body {
+    background-color: white;
+    text-align: center;
+    
+}
+
+#instructions {
+    
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    margin: 2em auto;
+    text-align: center;
+}
+
+#instructions h3 {
+    color: black;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.3em;
+}
+
+.main-container {
+    position: relative;
+    box-sizing: border-box;    
+    background-color: black;
+    width: 960px;
+    height: auto;
+    padding: 2em;
+    border-radius: 8em;
+    border:16px solid #ff80ab;
+    margin: 3.5em auto;
+    position: relative;
+    box-shadow: 0px 0px 150px #333;
+
+}
+
+#game-title {
+    margin: auto;
+    text-align: center;
+    color: #ff80ab;
+    line-height: 3em;
+    font-size: 1.5em;
+}
+
+#goal-score {
+    width: 800px;
+    margin: 3em auto 2em auto;
+    height: auto;
+    
+}
+
+#goal-number {
+    background-color: #ff80ab;
+    color: white;
+    width: 45%;
+    float: left;
+    height: 12em;
+    border: 0.5em solid white;
+    border-radius: 2.5em;
+   
+}
+
+#score-container {
+    background-color: #ff80ab;
+    color: white;
+    width: 45%;
+    float: right;
+    height: 12em;
+    border: 0.5em solid white;
+    border-radius: 2.5em;
+    vertical-align: middle;
+    
+}
+
+#user-number {
+    background-color: #ff80ab;
+    color: white;
+    width: 60%;
+    margin: auto;
+    height: 10em;
+    line-height: 1.8em;
+    border: 0.4em solid white;
+    border-radius: 2.5em;
+}
+
+#crystal-container {
+    width: 65%;
+    margin: auto;
+}
+
+.click-crystal {
+    max-width: 25%;
+    padding-bottom: 2.5em;
+}
+
+img {
+    float: left;
+    box-sizing: border-box;
+    padding:0.5em;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media only screen and (min-width:300px) {
+    .main-container {
+        max-width:90%;
+    }
+
+    #instructions {
+        width: 80%;
+    }
+
+    #goal-score {
+        max-width: 100%;
+    }
+
+    #goal-number, #score-container {
+        width: 42%;
+        font-size: 0.65em;
+    }
+
+    #game-title {
+        font-size: 1em;
+    }
+
+    #crystal-container {
+        width:90%;
+    }
+
+    .main-container {
+        max-width:90%;
+    }
+
+    #goal-score {
+        max-width: 100%;
+    }
+
+    #goal-number, #score-container {
+        width: 40%;
+        font-size: 0.6em;
+    }
+} 
+
+@media only screen and (min-width:525px) {
+    .main-container {
+        max-width:90%;
+    }
+
+    #instructions {
+        width: 80%;
+    }
+
+    #goal-score {
+        max-width: 100%;
+    }
+
+    #goal-number, #score-container {
+        width: 45%;
+        font-size: 0.8em;
+    }
+
+    #crystal-container {
+        width:75%;
+    }
+}
+
+  @media only screen and (min-width:700px) {
+    .main-container {
+        max-width:90%;
+    }
+
+    #instructions {
+        width: 80%;
+    }
+
+    #goal-score {
+        max-width: 100%;
+    }
+
+    #goal-number, #score-container {
+        width: 45%;
+        font-size: 1em;
+    }
+
+    #crystal-container {
+        width:75%;
+    }
+}
+
+  @media only screen and (min-width:850px) {
+    .main-container {
+        max-width:90%;
+    }
+
+    #instructions {
+        width: 70%;
+    }
+
+    #goal-score {
+        max-width: 90%;
+    }
+
+    #goal-number, #score-container {
+        width: 45%;
+    }  
+    
+    #crystal-container {
+        width:75%;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #instructions {
+        width: 60%;
+    }
+
+    @media only screen and (min-width:1400px) {
+        #instructions {
+            width: 50%;
+        }
