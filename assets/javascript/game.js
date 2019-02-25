@@ -60,3 +60,13 @@ $(".click-crystal").click(function() {
         game.lose();
     }
 });
+
+$(".close").click(function() {
+    $(".modal").hide();
+});
+
+$(document).click(function(event) {
+    if (!$(event.target).closest(".modal-content").length) {
+      $(".modal, .modal-content").hide();
+    }
+  });
